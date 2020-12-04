@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>starbucks</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="icon" href="img/bg/icon_pa.ico" type="image/gif" sizes="32x32">
+	<link rel="stylesheet" href="css/mystyle.css">
+	<script src="js/myscript.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<!-- -------------------첫번째페이지---------------------- -->
+		<section id="sec1">
+			<!-- -------------네비게이션------------- -->
+			<nav class="gnb">
+				<ul>
+					<li id="home" class="active">
+						<a href="#sec1" name="home" class="active">menu1
+						<div class="stihome"></div>
+						<div class="texthome active"></div>
+						</a>
+					</li>
+					<li id="cof">
+						<a href="#sec2" name="cof">menu2
+						<div class="sticof"></div>
+						<div class="textcof active"></div>
+						</a>
+					</li>
+					<li id="new">
+						<a href="#sec3" name="new">menu3
+						<div class="stinew"></div>
+						<div class="textnew active"></div>
+						</a>
+					</li>
+					<li id="camp">
+						<a href="#sec4" name="camp">menu4
+						<div class="sticamp"></div>
+						<div class="textcamp active"></div>
+						</a>
+					</li>
+					<li id="eve">
+						<a href="#sec5" name="eve">menu5
+						<div class="stieve"></div>
+						<div class="texteve active"></div>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- -------------배경요소------------- -->
+			<!-- 움직이는꼬리 -->
+			<section class="tail">
+				<div class="tail1"></div>
+				<div class="tail2"></div>
+			</section>
+			<!-- 산과로고 -->
+			<section class="mountain">
+				<div class="mountain1">
+					<div class="p1_logo"></div>
+					<div class="slog"></div>
+				</div>
+				<div class="mountain2"></div>
+			</section>
+			<!-- 바다애니메이션 -->
+			<section class="sea">
+				<div class="seaback"></div>
+				<div class="seafon_l"></div>
+				<div class="seafon_r"></div>
+			</section>
+			<!-- 창틀,커텐,화분과 커피에이드크로와상 + 캐릭터(침대여자) -->
+			<div class="window"></div>
+			<div class="cotten"></div>
+			<div class="plant"></div>
+
+			<div class="ade cur">
+				<span class="p1_tbox1"></span>
+			</div>
+			<div class="crow cur">
+				<span class="p1_tbox2"></span>
+			</div>
+			<div class="p1_coff"></div>
+
+			<div class="bedgirl"></div>
+			<div class="p1_talkbox"></div>
+			
+			<!-- 첫번째페이지 케로셀 등등 -->
+			<div class="p1_newdrink_frame">
+				<div class="p1_frame_bg">
+					<div class="p1_text_more">
+						<div class="p1_newdrink"></div>
+						<div class="p1_more p1_more_drink">
+							<a href="https://www.starbucks.co.kr/menu/drink_list.do?CATE_CD=product_cold_brew" target="_blank"></a>
+						</div>
+					</div>
+				</div>
+				<div class="p1_cancel"></div>
+			</div>
+			<div class="p1_bake_frame">
+				<div class="p1_frame_bg">
+					<div class="p1_text_more">
+						<div class="p1_bake"></div>
+						<div class="p1_more p1_more_bake">
+							<a href="https://www.starbucks.co.kr/menu/food_list.do?CATE_CD=product_cake" target="_blank"></a>
+						</div>
+					</div>
+					
+				</div>
+				<div class="p1_cancel"></div>
+			</div>
+
+		</section>
+		<!-- -------------------두번째페이지---------------------- -->
+		<section id="sec2">
+			<!-- 화분들 -->
+			<section class="p2_plant">
+				<div class="plant1"></div>
+				<div class="plant2"></div>
+				<div class="plant3"></div>
+				<div class="plant4"></div>
+			</section>
+			<!-- 프론트랑 커피있는서랍 -->
+			<section class="p2_front">
+				<div class="front"></div>
+				<div class="drawer"></div>
+			</section>
+			<!-- 기타맨 -->
+			<div class="gitaman cur"></div>
+			<div class="p2_talkbox"></div>
+			<!-- 클릭요소들 -->
+			<section class="p2_click">
+				<div class="rosters1 rost_sel cur"><a href=""></a></div>
+				<div class="rosters2 rost_sel cur"><a href=""></a></div>
+				<div class="rosters3 rost_sel cur"><a href=""></a></div>
+				<div class="rosters4 rost_sel cur"><a href=""></a></div>
+				<div class="pannel" name="findcof">
+					<button name="findcof"><!-- 버튼,판넬에 연결 --></button>
+				</div>
+				<div class="shelf1"></div>
+				<div class="shelf2"></div>
+			</section>
+			<!-- 모달창이 띄워져있을땐 다른걸 누를수 없어요! 글고 다른곳 클릭하면 모달창 꺼지기 -->
+			<div class="nullpage"></div>
+			<!-- 나에게 꼭맞는 원두찾기 퀘스천 -->
+			<section class="p2carouframe">
+				<div class="carou_white"></div>
+				<div class="p2_carou_star"></div>
+				<div class="carou_bg"></div>
+				<div class="carou_frame">
+					<!-- 문제들 -->
+					<ul class="p2_qs">
+						<li class="cur"></li>
+						<li class="cur"></li>
+						<li class="cur"></li>
+						<li class="cur"></li>
+					</ul>
+					<ul class="p2_qs">
+						<li class="cur"></li>
+						<li class="cur"></li>
+						<li class="cur"></li>
+					</ul>
+					<ul class="p2_qs">
+						<li class="cur"></li>
+						<li class="cur"></li>
+						<li class="cur"></li>
+					</ul>
+					<!-- 원두 -->
+					<div class="__rost__">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="p2_order_cancel"></div>
+			</section>
+			<!-- 메뉴보는 케로셀 팝업 -->
+			<section class="p2carouframe_order">
+				<div class="order_white"></div>
+				<div class="p2_order_star"></div>
+				<div class="order_bg"></div>
+				<div class="order_frame">
+					<!-- 메뉴 안쪽 -->
+					<nav class="order_menu">
+						<ul>
+							<li class="active cur"></li>
+							<li class="cur"></li>
+							<li class="cur"></li>
+							<li class="cur"></li>
+						</ul>
+					</nav>
+					<div class="p2_menu_scroll">
+						<!-- 메뉴 보는 곳 -->
+						<div class="order_carousel">
+						</div>
+						<!-- 메뉴 아래 메뉴버튼 -->
+						<div class="order_menu_btn">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div class="p2_order_cancel"></div>
+				</div>
+			</section>
+		</section>
+		<!-- -------------------세번째페이지---------------------- -->
+		<section id="sec3">
+			<!-- 배경 음료 클릭요소 -->
+			<div class="p3_ade cur"></div>
+			<div class="p3_latte cur"></div>
+			<div class="p3_tea cur"></div>
+			<!-- 더알아보기 -->
+			<div class="p3_more_box">
+				<!-- <li class="animate__animated animate__bounce animate__infinite animate__repeat-3"></li>
+				<li class="animate__animated animate__bounce animate__infinite animate__repeat-3"></li>
+				<li class="animate__animated animate__bounce animate__infinite animate__repeat-3"></li> -->
+				<li></li>
+				<li></li>
+				<li></li>
+			</div>
+			<!-- 화분들 -->
+			<div class="p3_plant1"></div>
+			<div class="p3_plant2"></div>
+			<div class="p3_plant3"></div>
+			<div class="p3_plant4"></div>
+			<div class="p3_plant5"></div>
+			<div class="p3_plant6"></div>
+			<div class="p3_plant7"></div>
+			<!-- 요가하는여자 -->
+			<div class="yogawomen cur"></div>
+			<div class="p3_talkbox"></div>
+
+			<!-- 모달창이 띄워져있을땐 다른걸 누를수 없어요! 글고 다른곳 클릭하면 모달창 꺼지기 -->
+			<div class="nullpage"></div>
+			<!-- p3캐로셀 -->
+
+			<div class="p3_modal_frame">
+				<nav>
+					<ul>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</nav>
+				<div class="p3_wt_frame"></div>
+				<div class="p3_menu_frame"></div>
+				<div class="p3_btn_frame">
+					<div>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="p3_carous_prev cur"></div>
+				<div class="p3_carous_next cur"></div>
+				<div class="p3_menu_cancel cur"></div>
+			</div>
+
+
+
+			<!-- 티바나 스토리 모달 -->
+			<div class="p3_modal_bg">
+				<div class="p3_modal">
+					<div class="p3_mo_close cur"></div>
+				</div>
+			</div>
+		</section>
+		<!-- -------------------네번째페이지---------------------- -->
+		<section id="sec4">
+			<!-- 스타벅스전광판(로고) -->
+			<div class="p4_logo"></div>
+			<!-- 가운데 전구모양+아래흙 -->
+			<section class="respons">
+				<div class="spon1 cur">
+					<div class="sand1"></div>
+				</div>
+				<div class="spon2 cur" onclick = "location.href = 'https://www.starbucks.co.kr/responsibility/index.do' " target="_blank">
+					<div class="sand2"></div>
+				</div>
+				<div class="spon3 cur">
+					<div class="sand3"></div>
+				</div>
+			</section>
+			<!-- 여자 -->
+			<div class="p4_women"></div>
+			<!-- p4 케로셀 -->
+			<div class="p4_modal">
+				<div class="p4_modal_white"></div>
+				<div class="p4_modal_bg">
+					<div class="p4_modal_1"></div>
+					<div class="p4_modal_2"></div>
+				</div>
+				<button class="p4_btn1"></button>
+				<button class="p4_btn2"></button>
+				<button class="p4_btn3" onclick = " window.open('https://www.starbucks.co.kr/responsibility/environment.do') " target="_blank"></button>
+				<div class="p4_mo_cancel cur"></div>
+			</div>
+			<div class="p4_modal_bus">
+				<div class="p4_mo_cancel cur"></div>
+			</div>
+
+		</section>
+		<!-- -------------------다번째페이지---------------------- -->
+		<section id="sec5">
+			<!-- 다섯번째페이지 배경 -->
+			<div class="framegreen"></div>
+			<div class="framewhite"></div>
+			<div class="twinkle">
+				<!-- p5제목 및 네비 -->
+				<div class="eventmain"></div>
+				<nav>
+					<ul>
+						<!-- <li>시크릿코드 입력</li>
+						<li>참여 방법</li>
+						<li>이벤트제품 안내</li>
+						<li>동영상 보기</li> -->
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- 흐린배경 -->
+			<div class="framewhite"></div>
+			<!-- 캐로셀들어갈자리잡기 -->
+			<div class="p5_caroframe">
+				<!-- 시크릿코드입력케로셀배경 -->
+				<div class="p5_1code">
+					<!-- 시크릿코드 제목 -->
+					<div class="codemain"></div>
+					<!-- 왼쪽섹션스탬프카드 -->
+					<section>
+						<div class="paperbg">
+							<div class="papergra"></div>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<span></span>
+					</section>
+					<!-- 오른쪽섹션 코드입력 및 캐릭터 -->
+					<section>
+						<!-- 코드입력칸 -->
+						<article>
+							<div class="artbg_green"></div>
+							<div class="artbg_white">
+								<div class="codebar">
+									<!-- <div class="codeinput"></div> -->
+									<input type="text" name="" value="로그인 후 이용하세요.">
+									<button>확인</button>
+								</div>
+								<!-- 텍스트 -->
+								<div class="codetext"></div>
+							</div>
+						</article>
+						<!-- 캐릭터칸 -->
+						<article>
+							<!-- 캐릭터 -->
+							<ul>
+								<li class="p5_char"></li>
+								<li class="p5_char"></li>
+								<li class="p5_char"></li>
+								<li class="p5_char"></li>
+							</ul>
+							<!-- 텍스트 -->
+						</article>
+						<div class="chartext"></div>
+					</section>
+				</div>
+				<!-- 참여방법캐로셀 -->
+				<div class="p5_2step">
+					<div class="stepmian"></div>
+					<div class="step"></div>
+				</div>
+				<!-- 동영상보기캐로셀 -->
+				<div class="p5_3video">
+					<iframe width="900" height="506" src="https://www.youtube.com/embed/7K5bbEih05M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+		</section>
+		
+	</div>
+	<footer>
+			<div>
+				개인정보처리방침 영상정보처리기기 운영관리 방침 홈페이지 이용약관 위치정보 이용약관 스타벅스 카드 이용약관 비회원 이용약관 My DT Pass 서비스 이용약관 윤리경영 핫라인
+찾아오시는 길 신규입점제의 사이트 맵
+사업자등록번호 : 201-81-21515 (주)스타벅스커피 코리아 대표이사 : 송 데이비드 호섭 TEL : 1522-3232 개인정보 책임자 : 장석현
+ⓒ 2020 Starbucks Coffee Company. All Rights Reserved.
+			</div>
+		</footer>
+</body>
+</html>
